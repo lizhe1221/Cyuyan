@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+  char n='a';
+  char *pn = &n;
+  printf("n:%c\nn的地址:%d\npn:%d\npn的地址:%d\npn指向的值：%c", n, &n, pn, &pn, *pn);
+ }
